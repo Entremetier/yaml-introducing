@@ -1,0 +1,9 @@
+#SpringBoot schaut als  erstes nach einem application.yml file, darum dieses immmer als erstes erstellen
+#die abstände sind sehr wichtig, sonst wird das file nicht gelesen
+#keine tabs verwenden, 2 oder 4 leerzeichen
+
+guru:
+  jms:
+    username: Bart Simpson
+    password: EatMyShorts
+    url: www.howToBully.com

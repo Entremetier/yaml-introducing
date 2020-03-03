@@ -1,0 +1,40 @@
+# das ist ein kommentar, alles nach der raute wird ignoriert
+
+name: Marco
+
+names: #Noch ein Kommentar der ignoriert wird
+  - Marco
+  - Stefan
+  - Andrè
+
+eine_Raute_schreiben: "#"
+
+book:
+  author: Joe Buck
+  publisher: some publisher
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+# alle oben angegebenen schreibweisen werden als boolean true verarbeitet
+
+false: no #false, No, FALSE
+
+# alle oben angegebnenen schreibweisen werden als boolean false verarbeitet
+
+string_val: "This is it" # durch die anführungsstriche erkennt yaml den text als eine zeile
+
+doppelpunkt_string: "Um einen : zu schreiben benötigt man auch die doppelten anführungszeichen"
+
+include_new_line: | #durch den Strich (Pipecharacter) wird yaml angewiesen alles einzulesen
+  sad adsf
+  adf adsaf
+  adf adfg
+
+ignore: > # durch das > Zeichen wird alles ein langer string eingelesen und die zeilenumbrüche werden ignoriert
+  djfd sdfjo
+  sdifknd aoidfn
+  adsifoj jdsafo
